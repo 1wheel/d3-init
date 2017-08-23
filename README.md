@@ -11,7 +11,10 @@ degit 1wheel/d3-init
 [Let's Make a Block](https://bost.ocks.org/mike/block/) is a great introduction. I use a couple of additional tools: 
 
 ```
-# make sure every thing is installed
+# update node if you don't have >= 8
+npm install -g n && n latest
+
+# install cli helpers
 npm install -g degit hot-server gistclone gistsnap gistup git-go
 
 # pick a project name and make a directory
