@@ -1,4 +1,4 @@
-Template for making new [bl.ocks](bl.ocks.org). `d3+_.js` contains a custom of build of d3 with [jetpack](https://github.com/gka/d3-jetpack) and lodash.
+Template for making new [bl.ocks](bl.ocks.org). `d3_.js` contains a custom of build of d3 with [jetpack](https://github.com/gka/d3-jetpack) and lodash.
 
 Make a new directory and copy this code with [degit](https://github.com/Rich-Harris/degit): 
 
