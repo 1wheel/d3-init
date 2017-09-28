@@ -14363,7 +14363,7 @@ var triangle = {
   }
 };
 
-var c$1 = -0.5;
+var c = -0.5;
 var s = Math.sqrt(3) / 2;
 var k = 1 / Math.sqrt(12);
 var a = (k / 2 + 1) * 3;
@@ -14380,12 +14380,12 @@ var wye = {
     context.moveTo(x0, y0);
     context.lineTo(x1, y1);
     context.lineTo(x2, y2);
-    context.lineTo(c$1 * x0 - s * y0, s * x0 + c$1 * y0);
-    context.lineTo(c$1 * x1 - s * y1, s * x1 + c$1 * y1);
-    context.lineTo(c$1 * x2 - s * y2, s * x2 + c$1 * y2);
-    context.lineTo(c$1 * x0 + s * y0, c$1 * y0 - s * x0);
-    context.lineTo(c$1 * x1 + s * y1, c$1 * y1 - s * x1);
-    context.lineTo(c$1 * x2 + s * y2, c$1 * y2 - s * x2);
+    context.lineTo(c * x0 - s * y0, s * x0 + c * y0);
+    context.lineTo(c * x1 - s * y1, s * x1 + c * y1);
+    context.lineTo(c * x2 - s * y2, s * x2 + c * y2);
+    context.lineTo(c * x0 + s * y0, c * y0 - s * x0);
+    context.lineTo(c * x1 + s * y1, c * y1 - s * x1);
+    context.lineTo(c * x2 + s * y2, c * y2 - s * x2);
     context.closePath();
   }
 };
@@ -17221,7 +17221,7 @@ var conventions = function(c){
   return c;
 };
 
-var drawAxis = function(d){
+var drawAxis = function(c){
   var xAxisSel = c.svg.append('g')
       .attr('class', 'x axis')
       .attr('transform', 'translate(0,' + c.height + ')')

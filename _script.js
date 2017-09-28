@@ -7,7 +7,7 @@ var c = d3.conventions({parentSel: d3.select('.graph').html(''), margin: {left: 
 c.x.domain(d3.extent(data, d => d.x))
 c.y.domain(d3.extent(data, d => d.y))
 
-c.drawAxis()
+d3.drawAxis(c)
 
 c.svg.appendMany(data, 'circle')
   .at({
