@@ -1,3 +1,5 @@
+console.clear()
+
 d3.select('body').selectAppend('div.tooltip')
 
 var data = d3.range(300).map(x => { return {x, y: Math.random()*10 + x/100} })
@@ -9,7 +11,7 @@ c.y.domain(d3.extent(data, d => d.y))
 
 d3.drawAxis(c)
 
-c.svg.appendMany(data, 'circle')
+c.svg.appendMany('circle', data)
   .at({
     cx: d => c.x(d.x),
     cy: d => c.y(d.y),
