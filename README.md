@@ -1,4 +1,4 @@
-Template for making new [bl.ocks](bl.ocks.org). `d3_.js` contains a custom of build of d3 with [jetpack](https://github.com/gka/d3-jetpack) and [underscore](http://underscorejs.org/).
+Template for making new [bl.ocks](https://bl.ocks.org/). `d3_.js` contains a custom of build of d3 with [jetpack](https://github.com/gka/d3-jetpack) and [underscore](http://underscorejs.org/).
 
 Make a new directory and copy this code with [degit](https://github.com/Rich-Harris/degit): 
 
