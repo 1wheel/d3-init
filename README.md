@@ -18,7 +18,7 @@ npm install -g n && n latest
 npm install -g degit hot-server gistclone gistsnap gistup git-go
 
 # pick a project name and make a directory
-mkdir my-example-name && cd $_
+mkdir my-example-name && cd my-example-name
 
 # grab starter files
 degit 1wheel/d3-init
@@ -32,7 +32,7 @@ hot-server
 gistsnap
 
 # publish
-gistup -m basename "$PWD"
+gistup -m basename my-example-name
 
 # update
 git-go this is a commit message
@@ -40,3 +40,9 @@ git-go this is a commit message
 # download
 gistclone https://bl.ocks.org/1wheel/4b9d34d74bd64a63d34028f160a71d7b
 ```
+
+- https://github.com/Rich-Harris/degit
+- https://github.com/1wheel/hot-server
+- https://github.com/mbostock/gistup
+- https://github.com/gka/git-go
+- https://github.com/1wheel/gistclone
