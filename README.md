@@ -7,15 +7,12 @@ mkdir my-example-name && cd $_
 degit 1wheel/d3-init
 ```
 
-# overall workflow
+# workflow
 [Let's Make a Block](https://bost.ocks.org/mike/block/) is a great introduction. I use a couple of additional tools: 
 
 ```
-# update node if you don't have >= 8
-npm install -g n && n latest
-
-# install cli helpers
-npm install -g degit hot-server gistclone gistsnap gistup git-go
+# install CLI helpers
+npm install -g degit hot-server gistsnap gistup git-go gistclone
 
 # pick a project name and make a directory
 mkdir my-example-name && cd my-example-name
@@ -46,3 +43,5 @@ gistclone https://bl.ocks.org/1wheel/4b9d34d74bd64a63d34028f160a71d7b
 - https://github.com/mbostock/gistup
 - https://github.com/gka/git-go
 - https://github.com/1wheel/gistclone
+
+Make sure you've upgraded node >= 8 - `npm install -g n && n latest` will do it for you.  
