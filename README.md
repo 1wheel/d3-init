@@ -29,7 +29,7 @@ hot-server
 gistsnap
 
 # publish
-gistup -m basename my-example-name
+gistup -m my-example-name
 
 # update
 git-go this is a commit message
