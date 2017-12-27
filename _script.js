@@ -3,7 +3,7 @@ d3.select('body').selectAppend('div.tooltip')
 
 var data = d3.range(300).map(x => { return {x, y: Math.random()*10 + x/100} })
 
-var sel = d3.select('.graph').html('')
+var sel = d3.select('#graph').html('')
 var c = d3.conventions({sel, margin: {left: 30}})
 
 c.x.domain(d3.extent(data, d => d.x))
