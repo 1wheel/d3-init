@@ -1,5 +1,5 @@
 console.clear()
-d3.select('body').selectAppend('div.tooltip')
+d3.select('body').selectAppend('div.tooltip.tooltip-hidden')
 
 var data = d3.range(300).map(x => { return {x, y: Math.random()*10 + x/100} })
 
