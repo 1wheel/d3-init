@@ -12,7 +12,7 @@ degit 1wheel/d3-init
 
 ```
 # install CLI helpers
-npm install -g degit hot-server gistsnap gistup git-go gistclone
+npm install -g degit hot-server gistsnap gistup git-go gistclone gistopen
 
 # pick a project name and make a directory
 mkdir my-example-name && cd my-example-name
@@ -33,6 +33,9 @@ gistup -m my-example-name
 
 # update
 git-go this is a commit message
+
+# open bl.ocks
+gistopen
 
 # download 
 gistclone https://bl.ocks.org/1wheel/4b9d34d74bd64a63d34028f160a71d7b
