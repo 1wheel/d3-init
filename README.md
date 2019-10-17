@@ -8,7 +8,7 @@ degit 1wheel/d3-init
 ```
 
 # workflow
-[Let's Make a Block](https://bost.ocks.org/mike/block/) is a great introduction. I use a couple of additional tools: 
+[Let’s Make a Block](https://bost.ocks.org/mike/block/) is a great introduction. I use a couple of additional tools: 
 
 ```
 # install CLI helpers
