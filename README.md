@@ -1,4 +1,4 @@
-Template for making new [bl.ocks](https://bl.ocks.org/). `d3_.js` contains a custom of build of d3 with [jetpack](https://github.com/gka/d3-jetpack) and [underscore](http://underscorejs.org/).
+Template for making new [blocks](http://blocks.roadtolarissa.com). `d3_.js` contains a custom of build of d3 with [jetpack](https://github.com/gka/d3-jetpack) and [underscore](http://underscorejs.org/).
 
 Make a new directory and copy this code with [degit](https://github.com/Rich-Harris/degit): 
 
@@ -34,11 +34,11 @@ gistup -m my-example-name
 # update
 git-go this is a commit message
 
-# open bl.ocks
+# open on blocks.roadtolarissa.com
 gistopen
 
 # download 
-gistclone https://bl.ocks.org/1wheel/4b9d34d74bd64a63d34028f160a71d7b
+gistclone https://blocks.roadtolarissa.com/1wheel/4b9d34d74bd64a63d34028f160a71d7b
 ```
 
 - https://github.com/Rich-Harris/degit
