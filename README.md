@@ -46,6 +46,7 @@ gistclone https://blocks.roadtolarissa.com/1wheel/4b9d34d74bd64a63d34028f160a71d
 - https://github.com/mbostock/gistup
 - https://github.com/gka/git-go
 - https://github.com/1wheel/gistclone
+- https://github.com/1wheel/gistsnap
 
 This alias lets me start sketching with one command:
 
