@@ -51,5 +51,5 @@ gistclone https://blocks.roadtolarissa.com/1wheel/4b9d34d74bd64a63d34028f160a71d
 This alias lets me start sketching with one command:
 
 ```
-alias initblock='function __initblock() { mkdir $1 && cd $1 && degit 1wheel/d3-init && echo " " > README.md && gistup -m $1 --private --no-open && subl . && hot-server; unset -f __initblock; }; __initblock'
+alias initblock='function __initblock() { mkdir $1 && cd $1 && degit 1wheel/d3-init && echo " " > README.md && gistup -m $1 --private --no-open && git checkout -b master && git push -u origin master --force && subl . && hot-server; unset -f __initblock; }; __initblock'
 ```
